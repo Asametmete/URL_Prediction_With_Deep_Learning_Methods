@@ -65,6 +65,7 @@ code and results come from the best model. Each model performance on F1-score,
 accuracy and AUC metrics given in table 1.
 
 ![Table 1. Results of each Model on F1-score, Accuracy and AUC metrics](images/table_metrics.png)
+Table 1. Results of each Model on F1-score, Accuracy and AUC metrics
 
 It is obviously visibly in table 2, MLP, ResNet, Wide&Deep algorithms have close 
 results, but CNN has performed approximately %2 more successful on F1-score and 
@@ -72,27 +73,35 @@ Accuracy metrics. Hence, that is demonstrate CNN is quite better than another
 algorithms.
 
 ![Table 2. Table on right shows classification report of MLP and table on left classification report of ResNet](images/MLPandResNetClassificationReport.png)
+Table 2. Table on right shows classification report of MLP and table on left classification report of ResNet
 
-![Table 3. Table on right shows classification report of CNN and table on left classification report of Wide&Deep  ](images/WideDeepAndCNNClasssificationReport.png)
+![Table 3. Table on right shows classification report of CNN and table on left classification report of Wide&Deep](images/WideDeepAndCNNClasssificationReport.png)
+Table 3. Table on right shows classification report of CNN and table on left classification report of Wide&Deep
 
 One important thing is also how models are performed on classification of malware 
 type. As seen in table 2 and table 3 CNN have almost perfect results.
 
 ![Figure 1. Left one confusion matrix of MLP, right one confusion matrix of ResNet](images/ConfusionMatrixOfMLPandResNet.png)
+Figure 1. Left one confusion matrix of MLP, right one confusion matrix of ResNet
 
 
 ![Figure 2. Left one confusion matrix of Wide&Deep, right one confusion matrix CNN](images/WideDeepAndCNNConfusion.png)
+Figure 2. Left one confusion matrix of Wide&Deep, right one confusion matrix CNN
 
 After the demonstration of Figure 1 and Figure 2 CNN has quite better performance and 
 other algorithms are close to each other on their performance. 
 
 ![Figure 3. MLP algorithm performance accuracy over epochs and loss over epochs](images/MLPGrap.png)
+Figure 3. MLP algorithm performance accuracy over epochs and loss over epochs
 
 ![Figure 4. ResNet algorithm performance accuracy over epochs and loss over epochs](images/ResNetGrap.png)
+Figure 4. ResNet algorithm performance accuracy over epochs and loss over epochs
 
 ![Figure 5. Wide&Deep algorithm performance accuracy over epochs and loss over](images/WideDeepGrap.png)
+Figure 5. Wide&Deep algorithm performance accuracy over epochs and loss over
 
 ![Figure 6. CNN algorithm performance accuracy over epochs and loss over epochs](images/CNNGrap.png)
+Figure 6. CNN algorithm performance accuracy over epochs and loss over epochs
 
 Those graphs show MLP, ResNet and Wide&Deep algorithms graphs more stable, and 
 CNN has obviously fluctuated graphs. In this case, Dataset was a tabular dataset and 
